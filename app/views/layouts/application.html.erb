@@ -13,15 +13,15 @@
       <div class="col-3">
         <div class="circle">
           <br />
-          You know
+          Being a 
           <br />
-          you need
+          parent
           <br />
-          to code
+          is tough!
         </div>
       </div>
       <div class="col-4 slogan">
-        Splurting out unsolicited advice about entrepreneurship since 2016
+        Laughing at and enjoying our crazy lives!
       </div>
       <div class="col-5 links">
         <%= link_to 'Contribute', '#' %>
@@ -33,6 +33,25 @@
 
     <br class="clear" />
 
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+          </div>
+          <div class="col-6 footer-blurb">
+            Built by <a href="https://www.facebook.com/i3goodman">Brandon Goodman</a> while enrolled at The Firehose Project.<br />
+            Want to build your own Splurt Web App - <a href="http://thefirehoseproject.com">Learn how to code here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
   </body>
 </html>
